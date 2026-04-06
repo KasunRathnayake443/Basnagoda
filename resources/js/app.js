@@ -1,5 +1,10 @@
 import './bootstrap';
 
+import.meta.glob([
+  '../images/**',
+  '../fonts/**',
+]);
+
 const header = document.getElementById('siteHeader');
 const menuToggle = document.getElementById('menuToggle');
 const siteNav = document.getElementById('siteNav');
