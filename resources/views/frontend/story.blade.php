@@ -44,7 +44,7 @@
     <div class="container">
         <div class="story-grid">
             <div class="story-image-col">
-                <img src="{{ asset('images/story-1.jpg') }}" alt="Historic architecture of Basnagoda Walauwa">
+                <img src="{{ Vite::asset('resources/images/story-1.jpg') }}" alt="Historic architecture of Basnagoda Walauwa">
             </div>
 
             <div class="story-text-col">
@@ -94,7 +94,7 @@
             </div>
 
             <div class="story-image-col">
-                <img src="{{ asset('images/story-2.jpg') }}" alt="Restored spaces of Basnagoda Walauwa">
+                <img src="{{ Vite::asset('resources/images/story-2.png') }}" alt="Restored spaces of Basnagoda Walauwa">
             </div>
         </div>
     </div>
