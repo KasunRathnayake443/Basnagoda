@@ -4,7 +4,8 @@
 @section('meta_description', 'Discover memorable experiences at Basnagoda Walauwa, from heritage stays to cultural moments and peaceful surroundings.')
 
 @section('content')
-<section class="page-hero experiences-hero">
+<section class="page-hero experiences-hero" 
+    style="background: linear-gradient(rgba(35, 25, 18, 0.70), rgba(35, 25, 18, 0.70)), url('{{ asset('images/experiences-hero.jpg') }}') center/cover no-repeat;">
     <div class="container">
         <div class="page-hero-content">
             <p class="section-kicker light">Experiences</p>
@@ -37,7 +38,7 @@
     <div class="container">
         <div class="story-grid">
             <div class="story-image-col">
-                <img src="{{ Vite::asset('resources/images/experiences-1.jpg') }}" alt="Traditional dining experience at Basnagoda Walauwa">
+                <img src="{{ asset('images/experiences-1.jpg') }}" alt="Traditional dining experience at Basnagoda Walauwa">
             </div>
 
             <div class="story-text-col">
@@ -80,7 +81,7 @@
             </div>
 
             <div class="story-image-col">
-                <img src="{{ Vite::asset('resources/images/experiences-2.jpg') }}" alt="Peaceful heritage stay at Basnagoda Walauwa">
+                <img src="{{ asset('images/experiences-2.jpg') }}" alt="Peaceful heritage stay at Basnagoda Walauwa">
             </div>
         </div>
     </div>
@@ -144,7 +145,7 @@
     <div class="container">
         <div class="story-grid">
             <div class="story-image-col">
-                <img src="{{ Vite::asset('resources/images/experiences-3.jpg') }}" alt="Cultural heritage atmosphere at Basnagoda Walauwa">
+                <img src="{{ asset('images/experiences-3.jpg') }}" alt="Cultural heritage atmosphere at Basnagoda Walauwa">
             </div>
 
             <div class="story-text-col">

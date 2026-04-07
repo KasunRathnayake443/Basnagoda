@@ -972,8 +972,6 @@ p {
 }
 
 .story-banner {
-    background: linear-gradient(rgba(35, 25, 18, 0.72), rgba(35, 25, 18, 0.72)),
-                url('/images/story-banner.jpg') center/cover no-repeat;
     color: #fff;
     padding: 130px 0 90px;
     border-bottom: none;
@@ -1068,9 +1066,6 @@ p {
 
 .page-hero.story-hero {
     padding: 180px 0 100px;
-    background:
-        linear-gradient(rgba(35, 25, 18, 0.72), rgba(35, 25, 18, 0.72)),
-        url('../images/story-banner.jpg') center/cover no-repeat;
     text-align: center;
 }
 
@@ -1094,9 +1089,6 @@ p {
 
 .gallery-hero {
     padding: 180px 0 100px;
-    background:
-        linear-gradient(rgba(35, 25, 18, 0.68), rgba(35, 25, 18, 0.68)),
-        url('../images/gallery-hero.jpg') center/cover no-repeat;
     text-align: center;
 }
 
@@ -1242,9 +1234,6 @@ p {
 
 .experiences-hero {
     padding: 180px 0 100px;
-    background:
-        linear-gradient(rgba(35, 25, 18, 0.70), rgba(35, 25, 18, 0.70)),
-        url('../images/experiences-hero.jpg') center/cover no-repeat;
     text-align: center;
 }
 
@@ -1313,9 +1302,6 @@ p {
 
 .visit-hero {
     padding: 180px 0 100px;
-    background:
-        linear-gradient(rgba(35, 25, 18, 0.70), rgba(35, 25, 18, 0.70)),
-        url('../images/visit-hero.jpg') center/cover no-repeat;
     text-align: center;
 }
 

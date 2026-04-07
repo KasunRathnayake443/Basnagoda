@@ -4,7 +4,8 @@
 @section('meta_description', 'Plan your visit to Basnagoda Walauwa and discover a restored Sri Lankan heritage mansion open for visits and stays.')
 
 @section('content')
-<section class="page-hero visit-hero">
+<section class="page-hero visit-hero" 
+    style="background: linear-gradient(rgba(35, 25, 18, 0.70), rgba(35, 25, 18, 0.70)), url('{{ asset('images/visit-hero.jpg') }}') center/cover no-repeat;">
     <div class="container">
         <div class="page-hero-content">
             <p class="section-kicker light">Visit Us</p>
@@ -101,7 +102,7 @@
     <div class="container">
         <div class="story-grid">
             <div class="story-image-col">
-                <img src="{{ Vite::asset('resources/images/visit-1.jpg') }}" alt="Visitors experiencing Basnagoda Walauwa">
+                <img src="{{ asset('images/visit-1.jpg') }}" alt="Visitors experiencing Basnagoda Walauwa">
             </div>
 
             <div class="story-text-col">

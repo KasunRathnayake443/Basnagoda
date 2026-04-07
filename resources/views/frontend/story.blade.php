@@ -4,7 +4,8 @@
 @section('meta_description', 'Discover the story, heritage, and restoration journey of Basnagoda Walauwa.')
 
 @section('content')
-<section class="page-hero story-hero">
+<section class="page-hero story-hero" 
+    style="background: linear-gradient(rgba(35, 25, 18, 0.70), rgba(35, 25, 18, 0.70)), url('{{ asset('images/story-hero.jpg') }}') center/cover no-repeat;">
     <div class="container">
         <div class="page-hero-content">
             <p class="section-kicker light">Our Story</p>
@@ -44,7 +45,7 @@
     <div class="container">
         <div class="story-grid">
             <div class="story-image-col">
-                <img src="{{ Vite::asset('resources/images/story-1.jpg') }}" alt="Historic architecture of Basnagoda Walauwa">
+                <img src="{{ asset('images/story-1.jpg') }}" alt="Historic architecture of Basnagoda Walauwa">
             </div>
 
             <div class="story-text-col">
@@ -94,7 +95,7 @@
             </div>
 
             <div class="story-image-col">
-                <img src="{{ Vite::asset('resources/images/story-2.png') }}" alt="Restored spaces of Basnagoda Walauwa">
+                <img src="{{ asset('images/story-2.png') }}" alt="Restored spaces of Basnagoda Walauwa">
             </div>
         </div>
     </div>

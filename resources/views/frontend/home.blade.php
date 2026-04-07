@@ -4,7 +4,7 @@
 
 @section('content')
 <section class="hero-slider" id="heroSlider">
-   <div class="hero-slide active" style="background-image: url('{{ Vite::asset('resources/images/hero-1.jpg') }}');">
+   <div class="hero-slide active" style="background-image: url('{{ asset('images/hero-1.jpg') }}');">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="hero-copy">
@@ -19,7 +19,7 @@
         </div>
     </div>
 
-   <div class="hero-slide active" style="background-image: url('{{ Vite::asset('resources/images/hero-2.jpg') }}');">
+   <div class="hero-slide active" style="background-image: url('{{ asset('images/hero-2.jpg') }}');">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="hero-copy">
@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="hero-slide" style="background-image: url('{{ Vite::asset('resources/images/hero-3.jpg') }}');">
+    <div class="hero-slide" style="background-image: url('{{ asset('images/hero-3.jpg') }}');">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="hero-copy">
@@ -83,7 +83,7 @@
             </div>
 
             <div class="welcome-image-wrap">
-                <img src="{{ Vite::asset('resources/images/welcome.jpg') }}" alt="Basnagoda Walauwa courtyard" class="welcome-image">
+                <img src="{{ asset('images/welcome.jpg') }}" alt="Basnagoda Walauwa courtyard" class="welcome-image">
             </div>
         </div>
     </div>
@@ -124,7 +124,7 @@
 
             <div class="card-grid rooms-grid">
                 <div class="room-card">
-                    <img src="{{ Vite::asset('resources/images/room-1.jpg') }}" alt="Room 1">
+                    <img src="{{ asset('images/room-1.jpg') }}" alt="Room 1">
                     <div class="room-card-body">
                         <h3>Classic Chamber</h3>
                         <p>A refined stay inspired by heritage interiors and understated comfort.</p>
@@ -132,7 +132,7 @@
                 </div>
 
                 <div class="room-card">
-                    <img src="{{ Vite::asset('resources/images/room-2.jpg') }}" alt="Room 2">
+                    <img src="{{ asset('images/room-2.jpg') }}" alt="Room 2">
                     <div class="room-card-body">
                         <h3>Garden Suite</h3>
                         <p>Views, light, and a peaceful ambiance rooted in the spirit of the estate.</p>
@@ -140,7 +140,7 @@
                 </div>
 
                 <div class="room-card">
-                    <img src="{{ Vite::asset('resources/images/room-3.jpg') }}" alt="Room 3">
+                    <img src="{{ asset('images/room-3.jpg') }}" alt="Room 3">
                     <div class="room-card-body">
                         <h3>Walauwa Suite</h3>
                         <p>A more spacious experience for those who wish to stay close to history.</p>
@@ -169,7 +169,7 @@
                 </p>
             </div>
             <div class="image-card">
-                <img src="{{ Vite::asset('resources/images/architecture.jpg') }}" alt="Architecture detail">
+                <img src="{{ asset('images/architecture.jpg') }}" alt="Architecture detail">
             </div>
         </div>
     </section>

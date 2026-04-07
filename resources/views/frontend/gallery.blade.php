@@ -4,7 +4,8 @@
 @section('meta_description', 'Explore the beauty, architecture, and heritage details of Basnagoda Walauwa.')
 
 @section('content')
-<section class="page-hero gallery-hero">
+<section class="page-hero gallery-hero" 
+    style="background: linear-gradient(rgba(35, 25, 18, 0.70), rgba(35, 25, 18, 0.70)), url('{{ asset('images/gallery-hero.jpg') }}') center/cover no-repeat;">
     <div class="container">
         <div class="page-hero-content">
             <p class="section-kicker light">Gallery</p>
@@ -33,43 +34,43 @@
 <section class="gallery-section section alt-bg">
     <div class="container">
         <div class="gallery-grid">
-            <div class="gallery-item large" onclick="openLightbox('{{ Vite::asset('resources/images/gallery-1.jpg') }}')">
-                <img src="{{ Vite::asset('resources/images/gallery-1.jpg') }}" alt="Front view of Basnagoda Walauwa">
+            <div class="gallery-item large" onclick="openLightbox('{{ asset('images/gallery-1.jpg') }}')">
+                <img src="{{ asset('images/gallery-1.jpg') }}" alt="Front view of Basnagoda Walauwa">
                 <div class="gallery-overlay">
                     <span>Exterior View</span>
                 </div>
             </div>
 
-            <div class="gallery-item" onclick="openLightbox('{{ Vite::asset('resources/images/gallery-2.jpg') }}')">
-                <img src="{{ Vite::asset('resources/images/gallery-2.jpg') }}" alt="Traditional interior of Basnagoda Walauwa">
+            <div class="gallery-item" onclick="openLightbox('{{ asset('images/gallery-2.jpg') }}')">
+                <img src="{{ asset('images/gallery-2.jpg') }}" alt="Traditional interior of Basnagoda Walauwa">
                 <div class="gallery-overlay">
                     <span>Interior Details</span>
                 </div>
             </div>
 
-            <div class="gallery-item" onclick="openLightbox('{{ Vite::asset('resources/images/gallery-3.jpg') }}')">
-                <img src="{{ Vite::asset('resources/images/gallery-3.jpg') }}" alt="Courtyard area of Basnagoda Walauwa">
+            <div class="gallery-item" onclick="openLightbox('{{ asset('images/gallery-3.jpg') }}')">
+                <img src="{{ asset('images/gallery-3.jpg') }}" alt="Courtyard area of Basnagoda Walauwa">
                 <div class="gallery-overlay">
                     <span>Courtyard</span>
                 </div>
             </div>
 
-            <div class="gallery-item" onclick="openLightbox('{{ Vite::asset('resources/images/gallery-4.jpg') }}')">
-                <img src="{{ Vite::asset('resources/images/gallery-4.jpg') }}" alt="Hallway and heritage features">
+            <div class="gallery-item" onclick="openLightbox('{{ asset('images/gallery-4.jpg') }}')">
+                <img src="{{ asset('images/gallery-4.jpg') }}" alt="Hallway and heritage features">
                 <div class="gallery-overlay">
                     <span>Historic Spaces</span>
                 </div>
             </div>
 
-            <div class="gallery-item large" onclick="openLightbox('{{ Vite::asset('resources/images/gallery-5.jpg') }}')">
-                <img src="{{ Vite::asset('resources/images/gallery-5.jpg') }}" alt="Garden and outdoor surroundings">
+            <div class="gallery-item large" onclick="openLightbox('{{ asset('images/gallery-5.jpg') }}')">
+                <img src="{{ asset('images/gallery-5.jpg') }}" alt="Garden and outdoor surroundings">
                 <div class="gallery-overlay">
                     <span>Gardens & Surroundings</span>
                 </div>
             </div>
 
-            <div class="gallery-item" onclick="openLightbox('{{ Vite::asset('resources/images/gallery-6.jpg') }}')">
-                <img src="{{ Vite::asset('resources/images/gallery-6.jpg') }}" alt="Architectural detail of Basnagoda Walauwa">
+            <div class="gallery-item" onclick="openLightbox('{{ asset('images/gallery-6.jpg') }}')">
+                <img src="{{ asset('images/gallery-6.jpg') }}" alt="Architectural detail of Basnagoda Walauwa">
                 <div class="gallery-overlay">
                     <span>Architectural Detail</span>
                 </div>
