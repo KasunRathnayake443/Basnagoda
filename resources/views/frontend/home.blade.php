@@ -79,7 +79,7 @@
                     to offer a stay rooted in story, tradition, and warm hospitality.
                 </p>
                 <br>
-                <a href="{{ route('story') }}" class="btn btn-primary">Discover Our Story</a>
+                <a href="{{ route('history') }}" class="btn btn-primary">Discover Our History</a>
             </div>
 
             <div class="welcome-image-wrap">

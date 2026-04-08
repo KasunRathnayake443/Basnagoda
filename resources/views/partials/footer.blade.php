@@ -16,7 +16,7 @@
                 <h4>Explore</h4>
                 <ul>
                     <li><a href="{{ route('home') }}">Home</a></li>
-                    <li><a href="{{ route('story') }}">Our Story</a></li>
+                    <li><a href="{{ route('history') }}">History</a></li>
                     <li><a href="{{ route('rooms') }}">Rooms</a></li>
                     <li><a href="{{ route('gallery') }}">Gallery</a></li>
                 </ul>

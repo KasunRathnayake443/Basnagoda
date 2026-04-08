@@ -9,7 +9,7 @@
     <div class="container">
         <div class="page-hero-content">
             <p class="section-kicker light">Our Story</p>
-            <h1>The Story of Basnagoda Walauwa</h1>
+            <h1>The History of Basnagoda Walauwa</h1>
             <p>
                 A place shaped by history, restored with care, and prepared to welcome a new generation.
             </p>

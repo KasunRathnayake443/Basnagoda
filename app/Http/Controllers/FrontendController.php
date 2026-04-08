@@ -11,9 +11,9 @@ class FrontendController extends Controller
         return view('frontend.home');
     }
 
-    public function story()
+    public function history()
     {
-        return view('frontend.story');
+        return view('frontend.history');
     }
 
     public function rooms()
@@ -29,11 +29,6 @@ class FrontendController extends Controller
     public function experiences()
     {
         return view('frontend.experiences');
-    }
-
-    public function visit()
-    {
-        return view('frontend.visit');
     }
 
     public function contact()
