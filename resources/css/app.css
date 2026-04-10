@@ -932,6 +932,10 @@ p {
     border: 1px solid var(--border);
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.10);
 }
+.welcome-image-wrap{
+    border-radius: 18px;
+    overflow: hidden;
+}
 
 .text-link {
     display: inline-block;
@@ -1011,6 +1015,11 @@ p {
 .story-block p {
     margin-bottom: 14px;
     color: var(--muted);
+}
+
+.story-image-col{
+    border-radius: 18px;
+    overflow: hidden;
 }
 
 .story-side-card {
